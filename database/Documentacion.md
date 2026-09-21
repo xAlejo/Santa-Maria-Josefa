@@ -307,3 +307,31 @@ Motivo
 ```
 * Se buscó utilizar un tipo numérico para los identificadores y el número de sesión.
 ![a](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/session.png?raw=true)
+
+# 12. Creacion de rol y permisos al rol como ejemplo (para revision)
+de forma autonoma se investigó al respecto, para así crear un rol dentro de un procedure y la posterior ejecucion de los permisos deseados, en si esto no es algo que se implementa en la base de datos, solo es una nota para revision de nuestro docente.
+```sql
+-- CREATE USER pa100t WITH PASSWORD ****;
+-- GRANT CONNECT ON DATABASE seed_test_data TO pa100t;
+-- GRANT ALL ON ALL TABLES IN SCHEMA public TO pa100t;
+```
+* Se identificó que entregar:
+```sql
+GRANT ALL
+```
+* otorga permisos demasiado amplios.
+
+Por eso se dejó indicado:
+```sql
+---- > Está mal darle todos los permisos al paciente
+```
+**¿Motivo?**
+
+* Los usuarios deberían tener solamente los permisos necesarios para realizar sus funciones.
+
+* Por ejemplo, un usuario que solamente necesita consultar información no debería tener automáticamente permisos para:
+
+* eliminar registros;
+* modificar registros;
+* insertar información;
+* alterar estructuras.
