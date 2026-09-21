@@ -20,3 +20,5 @@ device_name VARCHAR(10),
 * **id_device:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico. <br>
 * **device_ip:** se intentó utilizar un tipo numérico para representar la dirección IP. <br>
 * **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
+Muestra visual de modificacion: Modificado/Anterior
+[Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device.png?raw=true.png)
