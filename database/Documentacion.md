@@ -357,3 +357,4 @@ GRANT SELECT, INSERT, UPDATE, DELETE
 **¿Motivo?**
 
 * Se buscó automatizar la creación de usuarios y la asignación de permisos en lugar de realizar estas operaciones manualmente.
+![c](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff%20creation.png?raw=true)
