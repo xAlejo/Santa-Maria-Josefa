@@ -275,3 +275,22 @@ hour_attention TIME
 ```
 * Para representar correctamente fecha y hora.
 ![Medicalhistory](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalhistory.png?raw=true)
+
+# 10. Modificación de medicalimage
+
+* Se cambiaron los identificadores:
+
+```sql
+id_medicalimage INT NOT NULL,
+id_medicalhistory INT NOT NULL,
+```
+* manteniendo la relación:
+```sql
+FOREIGN KEY (id_medicalhistory)
+REFERENCES medicalhistory(id_medicalhistory)
+ON DELETE CASCADE
+```
+
+**¿El Motivo?**
+
+* Se buscó mantener la relación entre una imagen médica y su historial médico, utilizando identificadores numéricos.
