@@ -357,7 +357,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE
 **¿Motivo?**
 
 * Se buscó automatizar la creación de usuarios y la asignación de permisos en lugar de realizar estas operaciones manualmente.
-![c](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff%20creation.png?raw=true)
+![c](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff%20creation.png?raw=true.png)
 * Se propuso incorporar un procedimiento para automatizar la creación de usuarios y asignación de permisos. Esta propuesta quedó pendiente de validación debido a que la sintaxis utilizada debe adaptarse correctamente a PostgreSQL.
 
 # 14. Problemas detectados después de las modificaciones
