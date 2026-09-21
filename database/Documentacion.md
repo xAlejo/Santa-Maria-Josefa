@@ -176,6 +176,7 @@ device_ip         NUMBER,
 staff_gender VARCHAR(1)
 ```
 * Esto permite almacenar solo un caracter lo cual es lo justo y necesario para este atributo
+![staff](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff.png?raw=true)
 
 # 6. Modificación de la tabla service
 * La tabla original tenía:
