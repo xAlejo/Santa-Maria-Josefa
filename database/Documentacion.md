@@ -200,3 +200,26 @@ service_time INT NOT NULL
 ```
 * Esto permite almacenar y representar Minutos
 ![Services](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/services.png?raw=true)
+
+# 7. Modificación de workcalendar
+* Originalmente se utilizaban:
+```sql
+work_month text,
+work_day   text,
+```
+* Y se reemplazó por:
+```sql
+work_date DATE,
+```
+* Y los horarios:
+```sql
+work_start  TIME,
+work_finish TIME,
+break_start TIME,
+break_finish TIME,
+```
+* ¿El motivo?
+* Se buscó manejar las fechas y horas utilizando tipos específicos en lugar de almacenarlas como texto.
+
+* Esto permite realizar operaciones y comparaciones de fechas y horas de manera más adecuada.
+* Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7.
