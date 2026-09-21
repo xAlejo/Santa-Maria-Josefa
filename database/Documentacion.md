@@ -136,16 +136,11 @@ patient_birthday text,
 ```sql
 patient_birth DATE,
 ```
-* También se agregó un nuevo atributo.
-```sql
-patient_age NUMBER,
-```
 * Por lo cual la estructua al modificarse quedo de la siguente forma:
 ```sql
 id_patient       INT NOT NULL,
 patient_run      VARCHAR(12),
 patient_name     VARCHAR(30),
-patient_age      NUMBER,
 patient_birth    DATE,
 patient_contact  NUMBER,
 patient_gender   VARCHAR(1),
