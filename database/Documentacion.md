@@ -155,4 +155,4 @@ Se buscó utilizar tipos de datos más específicos:
 * **patient_gender** → VARCHAR(1)
 * **patient_address** → VARCHAR(20)
 
-
+![Patient](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/patient.png?raw=true)
