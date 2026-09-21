@@ -151,13 +151,13 @@ patient_contact  NUMBER,
 patient_gender   VARCHAR(1),
 patient_address  VARCHAR(20),
 ```
-¿El motivo?
+**¿El motivo?**
 
 Se buscó utilizar tipos de datos más específicos:
 
-* patient_name → VARCHAR(30)
-* patient_birth → DATE
-* patient_gender → VARCHAR(1)
-* patient_address → VARCHAR(20)
+* **patient_name** → VARCHAR(30)
+* **patient_birth** → DATE
+* **patient_gender** → VARCHAR(1)
+* **patient_address** → VARCHAR(20)
 
-Además, se agregó patient_age para almacenar la edad del paciente y de esta forma poder adquirid informacion mas rapida debido a su etapa de vida.
+* Además, se agregó patient_age para almacenar la edad del paciente y de esta forma poder adquirid informacion mas rapida debido a su etapa de vida.
