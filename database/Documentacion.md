@@ -1,8 +1,8 @@
 # DOCUMENTACION DE LA REVISION
 ## Introduccion.
 En esta seccion damos a conocer lo realizado en la base de datos lo cual es su revision completa del funcionamiento, revision de los errores y ciertas modificaciones que realizamos para que estuviera mas claro y ordenado.
-1. Revisión de los tipos de datos: <br>
-1.1. Tabla *device*
+# 1. Revisión de los tipos de datos: <br>
+# 1.1. Tabla *device*
 En la versión original, los campos estaban definidos de la siguiente manera:
 ```sql
 id_device   text NOT NULL,
@@ -23,7 +23,7 @@ device_name VARCHAR(10),
 # Muestra visual de modificacion: Modificado/Anterior <br>
 ![Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg?raw=true)
 
-2. Revisión de la tabla *file* <br>
+# 2. Revisión de la tabla *file* <br>
 * En la tabla file se mantuvo la estructura general, pero se modificaron algunos tipos de datos. <br>
 Originalmente:
 ```sql
@@ -54,3 +54,5 @@ El motivo de esto fue que se buscó especificar mejor el tipo y tamaño de los d
 
 Ademas se agrego un comentario indicando que esta tabla no se estaria siendo utilizada actualmente y no estaria vinculada a nada, por ende se encuentra en evaluacion para ser eliminada.
 ![file](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/file.jpg?raw=true)
+
+# 3. Modificación de la tabla holiday
