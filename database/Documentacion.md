@@ -160,7 +160,7 @@ Se buscó utilizar tipos de datos más específicos:
 # 5. Modificación de la tabla staff
 * Anteriormente la tabla utilizaba TEXT para prácticamente todos los campos, pero esto se cambio.
 ```sql
-id_staff          INT NOT NULL,
+id_staff          TEXT,
 staff_name        VARCHAR(15),
 staff_ocupation   VARCHAR(20),
 staff_gender      VARCHAR(1),
