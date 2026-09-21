@@ -55,4 +55,24 @@ El motivo de esto fue que se buscó especificar mejor el tipo y tamaño de los d
 Ademas se agrego un comentario indicando que esta tabla no se estaria siendo utilizada actualmente y no estaria vinculada a nada, por ende se encuentra en evaluacion para ser eliminada.
 ![file](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/file.jpg?raw=true)
 
-# 3. Modificación de la tabla holiday
+# 3. Modificación de la tabla *holiday*
+* Esta fue una modificación importante o mas bien grande, ya que la estructura original utilizaba cuatro campos separados para almacenar la fecha.
+```sql
+holiday_year   text,
+holiday_month  text,
+holiday_day    text,
+holiday_detail text,
+```
+* Por lo cual se propuso reemplazarlos por un único campo:
+```sql
+holiday_date DATE,
+```
+* Por lo cual quedo de esta forma el apartado de Holiday.
+```sql
+CREATE TABLE IF NOT EXISTS holiday (
+    id_holiday INT NOT NULL,
+    holiday_date DATE,
+    holiday_detail TEXT,
+    CONSTRAINT holiday_pkey PRIMARY KEY (id_holiday)
+)
+```
