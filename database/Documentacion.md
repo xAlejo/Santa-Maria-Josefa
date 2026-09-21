@@ -127,3 +127,37 @@ INSERT INTO holiday VALUES
 (14, '2026-12-08', 'inmaculada concepcion'),
 (15, '2026-12-25', 'navidad');
 ```
+# 4. Modificación de la tabla patient.
+* En la tabla original, la fecha de nacimiento estaba almacenada como texto.
+```sql
+patient_birthday text,
+```
+* Por lo cual Se modificó para utilizar una fecha real.
+```sql
+patient_birth DATE,
+```
+* También se agregó un nuevo atributo.
+```sql
+patient_age NUMBER,
+```
+* Por lo cual la estructua al modificarse quedo de la siguente forma:
+```sql
+id_patient       INT NOT NULL,
+patient_run      VARCHAR(12),
+patient_name     VARCHAR(30),
+patient_age      NUMBER,
+patient_birth    DATE,
+patient_contact  NUMBER,
+patient_gender   VARCHAR(1),
+patient_address  VARCHAR(20),
+```
+¿El motivo?
+
+Se buscó utilizar tipos de datos más específicos:
+
+* patient_name → VARCHAR(30)
+* patient_birth → DATE
+* patient_gender → VARCHAR(1)
+* patient_address → VARCHAR(20)
+
+Además, se agregó patient_age para almacenar la edad del paciente y de esta forma poder adquirid informacion mas rapida debido a su etapa de vida.
