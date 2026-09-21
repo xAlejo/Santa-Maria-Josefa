@@ -274,3 +274,4 @@ day_attention DATE
 hour_attention TIME
 ```
 * Para representar correctamente fecha y hora.
+![Medicalhistory](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalhistory.png?raw=true)
