@@ -1,5 +1,6 @@
-# Version 2.0 ( Actual)
-Aqui dejo la actual base modificada por mi, ya habia realizado otra que dejare en el documento oficial pero esta es la nueva que aun falta un poco pulir...
+* Version 2.0 ( Actual)
+Aqui dejo la actual base modificada por mi, ya habia realizado otra que dejare en el documento oficial pero esta es la nueva que aun falta un poco pulir... <br>
+	
 ```sql
   -- Pa100T — DB de prueba con datos ficticios
 -- Staff: superhéroes Marvel | Pacientes: dibujos animados
