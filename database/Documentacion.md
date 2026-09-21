@@ -53,7 +53,7 @@ El motivo de esto fue que se buscó especificar mejor el tipo y tamaño de los d
 * **file_area** → texto corto. <br>
 
 Ademas se agrego un comentario indicando que esta tabla no se estaria siendo utilizada actualmente y no estaria vinculada a nada, por ende se encuentra en evaluacion para ser eliminada.
-![file](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/file.jpg?raw=true)
+![file](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/file.jpg)
 
 # 3. Modificación de la tabla *holiday*
 * Esta fue una modificación importante o mas bien grande, ya que la estructura original utilizaba cuatro campos separados para almacenar la fecha.
@@ -155,7 +155,7 @@ Se buscó utilizar tipos de datos más específicos:
 * **patient_gender** → VARCHAR(1)
 * **patient_address** → VARCHAR(20)
 
-![Patient](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/patient.png?raw=true)
+![Patient](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/patient.png)
 
 # 5. Modificación de la tabla staff
 * Anteriormente la tabla utilizaba TEXT para prácticamente todos los campos, pero esto se cambio.
@@ -176,7 +176,7 @@ device_ip         NUMBER,
 staff_gender VARCHAR(1)
 ```
 * Esto permite almacenar solo un caracter lo cual es lo justo y necesario para este atributo
-![staff](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff.png?raw=true)
+![staff](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff.png)
 
 # 6. Modificación de la tabla service
 * La tabla original tenía:
@@ -199,7 +199,7 @@ service_time       INT NOT NULL,
 service_time INT NOT NULL
 ```
 * Esto permite almacenar y representar Minutos
-![Services](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/services.png?raw=true)
+![Services](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/services.png)
 
 # 7. Modificación de workcalendar
 * Originalmente se utilizaban:
@@ -225,10 +225,10 @@ break_finish TIME,
 * Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7. <br>
 
 * **Tablas**
-  ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true) <br>
+  ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png) <br>
   
 * **Datos Insercion**
-![workcalendar parte2.png](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
+![workcalendar parte2.png](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png)
 
 # 8. Modificación de *reservation*
 * En la versión original se utilizaban columnas separadas.
@@ -247,7 +247,7 @@ reservation_hour TIME
 ```
 **¿El Motivo?**
 * se buscó evitar almacenar fechas separadas como texto. <br>
-![reservation.mrd](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/reservation.png?raw=true)
+![reservation.mrd](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/reservation.png)
 
 # 9. Revisión de *medicalhistory*
 * Aqui se modificaron principalmente los tipos de datos:
@@ -274,7 +274,7 @@ day_attention DATE
 hour_attention TIME
 ```
 * Para representar correctamente fecha y hora.
-![Medicalhistory](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalhistory.png?raw=true)
+![Medicalhistory](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalhistory.png)
 
 # 10. Modificación de medicalimage
 
@@ -294,7 +294,7 @@ ON DELETE CASCADE
 **¿El Motivo?**
 
 * Se buscó mantener la relación entre una imagen médica y su historial médico, utilizando identificadores numéricos.
-![medicalimage](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalimage.png?raw=true)
+![medicalimage](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalimage.png)
 
 # 11. Modificación de *session*
 
@@ -306,7 +306,7 @@ session_encode TEXT,
 Motivo
 ```
 * Se buscó utilizar un tipo numérico para los identificadores y el número de sesión.
-![a](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/session.png?raw=true)
+![a](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/session.png)
 
 # 12. Creacion de rol y permisos al rol como ejemplo (para revision)
 de forma autonoma se investigó al respecto, para así crear un rol dentro de un procedure y la posterior ejecucion de los permisos deseados, en si esto no es algo que se implementa en la base de datos, solo es una nota para revision de nuestro docente.
@@ -335,7 +335,7 @@ Por eso se dejó indicado:
 * modificar registros;
 * insertar información;
 * alterar estructuras. <br>
-![v](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/createuser.png?raw=true)
+![v](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/createuser.png)
 
 # 13. Creación del procedimiento *crear_staff*
 
@@ -357,7 +357,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE
 **¿Motivo?**
 
 * Se buscó automatizar la creación de usuarios y la asignación de permisos en lugar de realizar estas operaciones manualmente.
-![c](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff%20creation.png?raw=true.png)
+![c](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/staff%20creation.png)
 * Se propuso incorporar un procedimiento para automatizar la creación de usuarios y asignación de permisos. Esta propuesta quedó pendiente de validación debido a que la sintaxis utilizada debe adaptarse correctamente a PostgreSQL.
 
 # 14. Problemas detectados después de las modificaciones
