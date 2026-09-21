@@ -223,3 +223,5 @@ break_finish TIME,
 
 * Esto permite realizar operaciones y comparaciones de fechas y horas de manera más adecuada.
 * Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7.
+**Tablas**
+  ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true)
