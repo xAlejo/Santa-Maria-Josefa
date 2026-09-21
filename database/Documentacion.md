@@ -17,6 +17,6 @@ device_ip   NUMBER,
 device_name VARCHAR(10),
 ```
 ¿Motivo de la modificación? <br>
-**id_device:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico. <br>
-**device_ip:** se intentó utilizar un tipo numérico para representar la dirección IP. <br>
-**device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
+* **id_device:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico. <br>
+* **device_ip:** se intentó utilizar un tipo numérico para representar la dirección IP. <br>
+* **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
