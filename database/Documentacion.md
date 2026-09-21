@@ -294,3 +294,4 @@ ON DELETE CASCADE
 **¿El Motivo?**
 
 * Se buscó mantener la relación entre una imagen médica y su historial médico, utilizando identificadores numéricos.
+![medicalimage](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalimage.png?raw=true)
