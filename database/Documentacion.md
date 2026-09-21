@@ -156,3 +156,23 @@ Se buscó utilizar tipos de datos más específicos:
 * **patient_address** → VARCHAR(20)
 
 ![Patient](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/patient.png?raw=true)
+
+# 5. Modificación de la tabla staff
+* Anteriormente la tabla utilizaba TEXT para prácticamente todos los campos, pero esto se cambio.
+```sql
+id_staff          INT NOT NULL,
+staff_name        VARCHAR(15),
+staff_ocupation   VARCHAR(20),
+staff_gender      VARCHAR(1),
+staff_area        VARCHAR(5),
+staff_credentials NUMBER,
+staff_password    VARCHAR(12),
+device_ip         NUMBER,
+```
+**¿El motivo?**
+* Se intentó definir con mayor precisión qué tipo de información almacena cada campo y limitar la cantidad de caracteres cuando corresponde.
+* Ejemplo:
+```sql
+staff_gender VARCHAR(1)
+```
+* Esto permite almacenar solo un caracter lo cual es lo justo y necesario para este atributo
