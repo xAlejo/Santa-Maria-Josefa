@@ -22,3 +22,32 @@ device_name VARCHAR(10),
 * **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
 # Muestra visual de modificacion: Modificado/Anterior <br>
 ![Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg?raw=true)
+
+2. Revisión de la tabla *file* <br>
+* En la tabla file se mantuvo la estructura general, pero se modificaron algunos tipos de datos. <br>
+Originalmente:
+```sql
+id_file     text NOT NULL,
+module_name text,
+field_name  text,
+object_id   text,
+file_area   text,
+extension   text,
+description text,
+```
+Se modificó a:
+```sql
+id_file     INT NOT NULL,
+module_name VARCHAR(20),
+field_name  VARCHAR(15),
+object_id   NUMBER,
+file_area   VARCHAR(5),
+extension   text,
+description text,
+```
+El motivo de esto fue que se buscó especificar mejor el tipo y tamaño de los datos.
+* **id_file** → identificador numérico.
+* **module_name** → texto con una longitud máxima.
+* **field_name** → texto con longitud limitada.
+* **object_id** → se consideró como dato numérico.
+* **file_area** → texto corto.
