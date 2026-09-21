@@ -13,12 +13,12 @@ De lo cual nosotros lo modificamos ya que durante la revision consideramos que n
 **Por lo cual se modifico a la siguente:**
 ```sql
 id_device   INT NOT NULL,
-device_ip   NUMBER,
+device_ip   INT NOT NULL,
 device_name VARCHAR(10),
 ```
 ¿Motivo de la modificación? <br>
 * **id_device:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico. <br>
-* **device_ip:** se intentó utilizar un tipo numérico para representar la dirección IP. <br>
+* **device_ip:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico.  <br>
 * **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
 # Muestra visual de modificacion: Modificado/Anterior <br>
 ![Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg?raw=true)
