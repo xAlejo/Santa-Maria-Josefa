@@ -222,6 +222,10 @@ break_finish TIME,
 * Se buscó manejar las fechas y horas utilizando tipos específicos en lugar de almacenarlas como texto.
 
 * Esto permite realizar operaciones y comparaciones de fechas y horas de manera más adecuada.
-* Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7.
+* Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7. <br>
+
 **Tablas**
-  ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true)
+  ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true) <br>
+  
+**Datos Insercion**
+![inset](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
