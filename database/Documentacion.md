@@ -76,3 +76,54 @@ CREATE TABLE IF NOT EXISTS holiday (
     CONSTRAINT holiday_pkey PRIMARY KEY (id_holiday)
 )
 ```
+**¿Motivo de la modificación?** <br>
+
+La fecha estaba dividida en tres columnas independientes:
+
+* año
+* mes
+* día
+
+Esto puede complicar la manipulación de las fechas y la modificacion realizada la hace mas sencilla y simple para las consultas y operaciones, de esta forma Se propuso utilizar *DATE*, que permite almacenar directamente una fecha completa. <br>
+* Ejemplo
+```sql
+2026-09-18
+```
+* Por ende en los datos de inserccion tambien se realizo una modifacion, pasando de esto:
+```sql
+INSERT INTO holiday VALUES
+('1','2026','01','01','ano nuevo'),
+('2','2026','04','03','viernes santo'),
+('3','2026','04','04','sabado santo'),
+('4','2026','05','01','dia del trabajador'),
+('5','2026','05','21','dia de las glorias navales'),
+('6','2026','06','29','san pedro y san pablo'),
+('7','2026','07','16','dia de la virgen del carmen'),
+('8','2026','08','15','asuncion de la virgen'),
+('9','2026','09','18','independencia nacional'),
+('10','2026','09','19','dia de las glorias del ejercito'),
+('11','2026','10','12','encuentro de dos mundos'),
+('12','2026','10','31','dia de las iglesias evangelicas'),
+('13','2026','11','01','dia de todos los santos'),
+('14','2026','12','08','inmaculada concepcion'),
+('15','2026','12','25','navidad');
+```
+* A esto:
+```sql
+INSERT INTO holiday VALUES
+(1, '2026-01-01', 'ano nuevo'),
+(2, '2026-04-03', 'viernes santo'),
+(3, '2026-04-04', 'sabado santo'),
+(4, '2026-05-01', 'dia del trabajador'),
+(5, '2026-05-21', 'dia de las glorias navales'),
+(6, '2026-06-29', 'san pedro y san pablo'),
+(7, '2026-07-16', 'dia de la virgen del carmen'),
+(8, '2026-08-15', 'asuncion de la virgen'),
+(9, '2026-09-18', 'independencia nacional'),
+(10, '2026-09-19', 'dia de las glorias del ejercito'),
+(11, '2026-10-12', 'encuentro de dos mundos'),
+(12, '2026-10-31', 'dia de las iglesias evangelicas'),
+(13, '2026-11-01', 'dia de todos los santos'),
+(14, '2026-12-08', 'inmaculada concepcion'),
+(15, '2026-12-25', 'navidad');
+```
