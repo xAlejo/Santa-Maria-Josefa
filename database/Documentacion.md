@@ -9,4 +9,10 @@ id_device   text NOT NULL,
 device_ip   text,
 device_name text,
 ```
-De lo cual nosotros lo modificamos ya que durante la revision consideramos que no todos los campos debian utilizar el comando **TEXT**, ya que cada dato dado posee una naturaleza o estructura diferente 
+De lo cual nosotros lo modificamos ya que durante la revision consideramos que no todos los campos debian utilizar el comando **TEXT**, ya que cada dato dado posee una naturaleza o estructura diferente.
+Por lo cual se modifico a la siguente: 
+```sql
+id_device   INT NOT NULL,
+device_ip   NUMBER,
+device_name VARCHAR(10),
+```
