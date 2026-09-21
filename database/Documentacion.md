@@ -361,3 +361,4 @@ GRANT SELECT, INSERT, UPDATE, DELETE
 * Se propuso incorporar un procedimiento para automatizar la creación de usuarios y asignación de permisos. Esta propuesta quedó pendiente de validación debido a que la sintaxis utilizada debe adaptarse correctamente a PostgreSQL.
 
 # 14. Problemas detectados después de las modificaciones
+* Aun en proceso de redaccion por nueva modificacion.
