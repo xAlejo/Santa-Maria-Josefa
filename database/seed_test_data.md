@@ -1,5 +1,10 @@
 # Version 2.0 ( Actual)
 * Aqui dejo la actual base modificada por mi, ya habia realizado otra que dejare en el documento oficial pero esta es la nueva que aun falta un poco pulir... <br>
+**¿Porque otra version?**
+* Esto se debe a que al momento de ejecutar por tercera ves el codigo pero en su programa respectivo me salto varios errores debido a que no respete ciertas reglas del mismo lenguaje y de las limitaciones del PosgreSQL, por el momento esto es todo lo que pude recopilar a lo cual como le dije falta su descripcion como el en de Documentacion.md
+
+* Resumen
+Me toco realizar varios cambios importantes debido a que tuve que implementar comandos como BIGINT, INET, Reacomodar algunos VARCHAR, volver a colar algunos TEXT y la modificacion de la seccion creada por mi de CREATE OR REPLACE PROCEDURE crear_staff, entre otras cosas.
 	
 ```sql
   -- Pa100T — DB de prueba con datos ficticios
