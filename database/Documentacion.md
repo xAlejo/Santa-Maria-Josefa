@@ -230,7 +230,7 @@ break_finish TIME,
 * **Datos Insercion**
 ![workcalendar parte2.png](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
 
-# 8. Modificación de reservation
+# 8. Modificación de *reservation*
 * En la versión original se utilizaban columnas separadas.
 ```sql
 reservation_year
@@ -248,3 +248,29 @@ reservation_hour TIME
 **¿El Motivo?**
 * se buscó evitar almacenar fechas separadas como texto. <br>
 ![reservation.mrd](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/reservation.png?raw=true)
+
+# 9. Revisión de *medicalhistory*
+* Aqui se modificaron principalmente los tipos de datos:
+```sql
+id_medicalhistory INT NOT NULL,
+id_patient INT NOT NULL,
+staff_id INT,
+staff_name VARCHAR(15),
+staff_ocupation VARCHAR(20),
+staff_area VARCHAR(5),
+...
+day_attention DATE,
+hour_attention TIME,
+```
+* También se agregó el comentario:
+```sql
+--- Tabla no usada (en decisión para borrar)
+```
+**¿El Motivo?**
+Se consideró que la tabla podría no estar siendo utilizada dentro de la aplicación y se dejó marcada para evaluar posteriormente si realmente era necesaria.
+* También se cambiaron:
+```sql
+day_attention DATE
+hour_attention TIME
+```
+* Para representar correctamente fecha y hora.
