@@ -228,4 +228,4 @@ break_finish TIME,
   ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true) <br>
   
 **Datos Insercion**
-![inset](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
+![workcalendar parte2.](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
