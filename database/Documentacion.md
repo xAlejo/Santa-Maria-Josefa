@@ -21,4 +21,4 @@ device_name VARCHAR(10),
 * **device_ip:** se intentó utilizar un tipo numérico para representar la dirección IP. <br>
 * **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
 # Muestra visual de modificacion: Modificado/Anterior <br>
-![Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device.png?raw=true)
+![Device](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg?raw=true)
