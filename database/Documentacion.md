@@ -21,7 +21,7 @@ device_name VARCHAR(10),
 * **device_ip:** se cambió de TEXT a INT, ya que corresponde a un identificador numérico.  <br>
 * **device_name:** se cambió de TEXT a VARCHAR(10) para establecer una longitud máxima. <br>
 # Muestra visual de modificacion: Modificado/Anterior <br>
-![Imagenes](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg?raw=true)
+![Imagenes](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/device2.jpg)
 
 # 2. Revisión de la tabla *file* <br>
 * En la tabla file se mantuvo la estructura general, pero se modificaron algunos tipos de datos. <br>
