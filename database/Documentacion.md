@@ -199,3 +199,4 @@ service_time       INT NOT NULL,
 service_time INT NOT NULL
 ```
 * Esto permite almacenar y representar Minutos
+![Services](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/services.png?raw=true)
