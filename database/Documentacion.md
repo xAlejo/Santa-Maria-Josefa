@@ -295,3 +295,14 @@ ON DELETE CASCADE
 
 * Se buscó mantener la relación entre una imagen médica y su historial médico, utilizando identificadores numéricos.
 ![medicalimage](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/medicalimage.png?raw=true)
+
+# 11. Modificación de *session*
+
+Se modificó:
+```sql
+id_session INT NOT NULL,
+session_number NUMBER,
+session_encode TEXT,
+Motivo
+```
+* Se buscó utilizar un tipo numérico para los identificadores y el número de sesión.
