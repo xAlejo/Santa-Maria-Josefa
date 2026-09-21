@@ -335,3 +335,4 @@ Por eso se dejó indicado:
 * modificar registros;
 * insertar información;
 * alterar estructuras.
+![v](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/createuser.png?raw=true)
