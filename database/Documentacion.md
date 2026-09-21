@@ -218,14 +218,32 @@ work_finish TIME,
 break_start TIME,
 break_finish TIME,
 ```
-* ¿El motivo?
+* **¿El motivo?**
 * Se buscó manejar las fechas y horas utilizando tipos específicos en lugar de almacenarlas como texto.
 
 * Esto permite realizar operaciones y comparaciones de fechas y horas de manera más adecuada.
 * Ademas se realizo la modificacion de los datos de insercion debido a que en las tablas antiguas habian 8 secciones y en la actual se dejaron 7. <br>
 
-**Tablas**
+* **Tablas**
   ![tablas](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte1.png?raw=true) <br>
   
-**Datos Insercion**
+* **Datos Insercion**
 ![workcalendar parte2.png](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/workcalendar%20parte2.png?raw=true)
+
+# 8. Modificación de reservation
+* En la versión original se utilizaban columnas separadas.
+```sql
+reservation_year
+reservation_month
+reservation_day
+```
+* A lo que se propuso remplazarlo por:
+```sql
+reservation_date DATE,
+```
+* Y tambien:
+```sql
+reservation_hour TIME
+```
+**¿El Motivo?**
+* se buscó evitar almacenar fechas separadas como texto.
