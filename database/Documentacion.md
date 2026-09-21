@@ -155,4 +155,4 @@ Se buscó utilizar tipos de datos más específicos:
 * **patient_gender** → VARCHAR(1)
 * **patient_address** → VARCHAR(20)
 
-* Además, se agregó patient_age para almacenar la edad del paciente y de esta forma poder adquirid informacion mas rapida debido a su etapa de vida.
+
