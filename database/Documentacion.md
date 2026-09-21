@@ -246,4 +246,5 @@ reservation_date DATE,
 reservation_hour TIME
 ```
 **¿El Motivo?**
-* se buscó evitar almacenar fechas separadas como texto.
+* se buscó evitar almacenar fechas separadas como texto. <br>
+![reservation.mrd](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/reservation.png?raw=true)
