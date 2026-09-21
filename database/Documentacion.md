@@ -186,3 +186,16 @@ service_name       text,
 service_credential text,
 service_time       text,
 ```
+* Por lo cual se modificó a:
+```sql
+service_code       NUMBER,
+service_name       VARCHAR(10),
+service_credential NUMBER,
+service_time       INT NOT NULL,
+```
+**¿EL motivo?**
+* Se buscó representar cada dato mediante un tipo más específico, especialmente:
+```sql
+service_time INT NOT NULL
+```
+* Esto permite almacenar y representar Minutos
