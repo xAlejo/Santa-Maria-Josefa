@@ -1,6 +1,7 @@
 # Primera Version modificada y analizada por Alejo Version 1.0
-* como esta version la realice en visual studio code con una extension del PosgreSQL me equivoque en varios comandos que al momento de implementarlo en el Programa original no me tomaban me toco realizarle varios cambios los cuales estan en el seed_test_data.md, algunos errores claves son el uso del Number, Algunos comandos sueltos y varios intentos de ejecutar el codigo, aclarar que el pdf que estoy realizando no lo eh enviado aun ya que me falta redactar los nuevos cambios que hice debido a la modificacion por segunda ves de la base de datos-
+* como esta version la realice en visual studio code con una extension del PosgreSQL me equivoque en varios comandos que al momento de implementarlo en el Programa original no me tomaban me toco realizarle varios cambios los cuales estan en el seed_test_data.md, algunos errores claves son el uso del Number, Algunos comandos sueltos y varios intentos de ejecutar el codigo, aclarar que el pdf que estoy realizando no lo eh enviado aun ya que me falta redactar los nuevos cambios que hice debido a la modificacion por segunda ves de la base de datos, pero como lo hablamos la ultima clase, todo lo que usted ve en este Repositorio es lo que va en el documento que estoy redactando, de lo cual tengo todo lo que esta escrito en el documento : Documenacion.md.
 
+```sql
 -- Pa100T — DB de prueba con datos ficticios
 -- Staff: superhéroes Marvel | Pacientes: dibujos animados
 --
@@ -223,3 +224,4 @@ INSERT INTO medicalhistory VALUES
 
 INSERT INTO session VALUES
 ('7000000000000000001','1','2c8ecf4a0331ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000ffff');
+```
