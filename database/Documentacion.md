@@ -334,5 +334,26 @@ Por eso se dejó indicado:
 * eliminar registros;
 * modificar registros;
 * insertar información;
-* alterar estructuras.
+* alterar estructuras. <br>
 ![v](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/createuser.png?raw=true)
+
+# 13. Creación del procedimiento *crear_staff*
+
+* Se agregó una nueva funcionalidad que no estaba presente originalmente:
+
+```sql
+CREATE OR REPLACE PROCEDURE crear_staff(usuario TEXT, rut VARCHAR(10))
+```
+* La intención es permitir crear un usuario y posteriormente asignarle permisos:
+
+```sql
+CREATE USER
+```
+* y:
+```sql
+GRANT SELECT, INSERT, UPDATE, DELETE
+```
+
+**¿Motivo?**
+
+* Se buscó automatizar la creación de usuarios y la asignación de permisos en lugar de realizar estas operaciones manualmente.
