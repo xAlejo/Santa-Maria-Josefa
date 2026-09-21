@@ -52,5 +52,5 @@ El motivo de esto fue que se buscó especificar mejor el tipo y tamaño de los d
 * **object_id** → se consideró como dato numérico.
 * **file_area** → texto corto. <br>
 
-Ademas se agrego un comentario indicando que esta tabla no se estaria siendo utilizada actualmente y no estaria vinculada a nada, por ende se encontraba en evaluacion para ser eliminada.
+Ademas se agrego un comentario indicando que esta tabla no se estaria siendo utilizada actualmente y no estaria vinculada a nada, por ende se encuentra en evaluacion para ser eliminada.
 ![file](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/file.jpg?raw=true)
