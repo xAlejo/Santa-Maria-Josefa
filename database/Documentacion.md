@@ -306,3 +306,4 @@ session_encode TEXT,
 Motivo
 ```
 * Se buscó utilizar un tipo numérico para los identificadores y el número de sesión.
+![a](https://github.com/xAlejo/Santa-Maria-Josefa/blob/main/database/Imagenes/session.png?raw=true)
