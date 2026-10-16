@@ -19,3 +19,14 @@ graph TD
     style C fill:#fff,stroke:#333,stroke-width:1px
     style D fill:#fff,stroke:#333,stroke-width:1px
 ```
+## Flujo de información
+
+| ELEMENTO | FUNCIÓN |
+| :--- | :--- |
+| PostgreSQL | Almacena la información del consultorio |
+| Página Web | Muestra la información almacenada |
+| Pacientes | Consultan Horarios, especialidades y datos de contacto |
+
+## Resultado obtenido
+
+Se definió un flujo de funcionamiento entre la base de datos PostgreSQL y la página web del Consultorio Santa María Josefa, permitiendo que la información almacenada pueda ser visualizada de manera organizada por los pacientes.
