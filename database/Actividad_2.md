@@ -2,7 +2,7 @@
 
 ## Descripción:
 
-Se recopiló información relacionada con especialidades médicas, profesionales disponibles, días de atención y horarios del Consultorio Santa María Josefa[cite: 2]. La información fue organizada en una planilla Excel para facilitar su análisis y posterior incorporación a la base de datos[cite: 2].
+Se recopiló información relacionada con especialidades médicas, profesionales disponibles, días de atención y horarios del Consultorio Santa María Josefa. La información fue organizada en una planilla Excel para facilitar su análisis y posterior incorporación a la base de datos.
 
 ## Tabla recopilada:
 
