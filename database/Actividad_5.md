@@ -54,3 +54,8 @@ CREATE TABLE imagen (
     descripcion VARCHAR(200)
 );
 ```
+<img width="494" height="697" alt="image" src="https://github.com/user-attachments/assets/b7b09ae2-934d-461f-aba0-043684432ac4" />
+
+## Resultado obtenido
+
+La base de datos fue creada correctamente en PostgreSQL y se definió una estructura compuesta por seis tablas destinadas a almacenar información de contacto, especialidades médicas, horarios de atención, ubicación e información institucional que será utilizada por la página web del Consultorio Santa María Josefa.
