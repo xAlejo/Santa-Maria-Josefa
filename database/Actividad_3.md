@@ -2,7 +2,7 @@
 
 ## Descripción:
 
-Una vez recopilada la información, se realizó un proceso de revisión para detectar datos duplicados, inconsistencias y registros incompletos[cite: 3]. La información fue verificada antes de ser incorporada a la base de datos, permitiendo mantener un registro ordenado y actualizado[cite: 3].
+Una vez recopilada la información, se realizó un proceso de revisión para detectar datos duplicados, inconsistencias y registros incompletos. La información fue verificada antes de ser incorporada a la base de datos, permitiendo mantener un registro ordenado y actualizado.
 
 | Revisión Realizada | Resultado |
 | :--- | :--- |
