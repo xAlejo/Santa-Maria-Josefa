@@ -15,6 +15,7 @@ Se implementó una base de datos utilizando PostgreSQL mediante pgAdmin 4. Se cr
 | Ubicación | Almacena la ubicación y dirección del consultorio |
 | Imagen | Almacena información de las imágenes utilizadas en el sitio web |
 
+```SQL
 CREATE TABLE contacto (
     id_contacto SERIAL PRIMARY KEY,
     telefono VARCHAR(20),
@@ -52,3 +53,4 @@ CREATE TABLE imagen (
     url_imagen VARCHAR(255),
     descripcion VARCHAR(200)
 );
+```
