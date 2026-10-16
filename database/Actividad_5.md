@@ -14,3 +14,41 @@ Se implementó una base de datos utilizando PostgreSQL mediante pgAdmin 4. Se cr
 | Horario | Almacena días y horarios de atención |
 | Ubicación | Almacena la ubicación y dirección del consultorio |
 | Imagen | Almacena información de las imágenes utilizadas en el sitio web |
+
+CREATE TABLE contacto (
+    id_contacto SERIAL PRIMARY KEY,
+    telefono VARCHAR(20),
+    correo VARCHAR(100),
+    formulario TEXT
+);
+
+CREATE TABLE nosotros (
+    id_nosotros SERIAL PRIMARY KEY,
+    historia TEXT,
+    mision TEXT
+);
+
+CREATE TABLE especialidades (
+    id_especialidad SERIAL PRIMARY KEY,
+    nombre_especialidad VARCHAR(100),
+    descripcion TEXT
+);
+
+CREATE TABLE horario (
+    id_horario SERIAL PRIMARY KEY,
+    dia VARCHAR(20),
+    hora_apertura TIME,
+    hora_cierre TIME
+);
+
+CREATE TABLE ubicacion (
+    id_ubicacion SERIAL PRIMARY KEY,
+    direccion VARCHAR(200),
+    mapa TEXT
+);
+
+CREATE TABLE imagen (
+    id_imagen SERIAL PRIMARY KEY,
+    url_imagen VARCHAR(255),
+    descripcion VARCHAR(200)
+);
