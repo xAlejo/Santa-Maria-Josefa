@@ -23,3 +23,13 @@ graph TD
     style Horario fill:#fff,stroke:#333,stroke-width:1px
     style Ubicación fill:#fff,stroke:#333,stroke-width:1px
 ```
+## Tabla Entidad
+
+| ENTIDAD | FUNCIÓN |
+| :--- | :--- |
+| CONTACTO | ALMACENA TELÉFONO, CORREO Y DIRECCIÓN |
+| NOSOTROS | INFORMACION DEL CONSULTORIO |
+| ESPECIALIDADES | SERVICIOS MEDICOS OFRECIDOS |
+| HOARIO | DÍAS Y HORAS DE ATENCIÓN |
+| UBICACIÓN | DIRECCIÓN Y MAPA DEL CONSULTORIO |
+| IMAGEN | IMAGEN MOSTRADAS EN EL SITIO WEB |
