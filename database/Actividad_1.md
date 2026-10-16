@@ -1,4 +1,4 @@
-# Actividad 1: Identificar la información más consultada por los pacientes
+# Identificar la información más consultada por los pacientes
 
 ## Descripción
 
