@@ -13,4 +13,4 @@ Se realizó una simulación de actualización de información para verificar que
 
 ## Resultado obtenido
 
-Se comprobó que la información puede mantenerse actualizada, permitiendo que los pacientes accedan a horarios y servicios vigentes mediante la página web[cite: 12].
+Se comprobó que la información puede mantenerse actualizada, permitiendo que los pacientes accedan a horarios y servicios vigentes mediante la página web.
